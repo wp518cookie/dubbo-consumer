@@ -15,5 +15,5 @@
     <dubbo:protocol name="dubbo" port="40010" />
 
     <!-- 声明需要暴露的服务接口 -->
-    <dubbo:reference interface="com.ping.wu.api.test.DemoService" registry="zookeeper" timeout="10000"/>
+    <dubbo:reference id="demoService" interface="com.ping.wu.api.test.DemoService" registry="zookeeper" timeout="10000"/>
 </beans>
