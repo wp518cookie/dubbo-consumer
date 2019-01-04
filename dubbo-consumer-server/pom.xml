@@ -10,7 +10,22 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>dubbo-consumer-server</artifactId>
-
+    <build>
+        <finalName>dubbo-consumer1</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>build-info</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
     <dependencies>
         <dependency>
             <groupId>com.ping.wu</groupId>
