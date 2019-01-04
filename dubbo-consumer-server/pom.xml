@@ -11,5 +11,11 @@
 
     <artifactId>dubbo-consumer-server</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.ping.wu</groupId>
+            <artifactId>dubbo-server-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

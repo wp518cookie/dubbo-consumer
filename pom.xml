@@ -132,11 +132,6 @@
             <artifactId>aspectjweaver</artifactId>
             <version>1.8.9</version>
         </dependency>
-        <dependency>
-            <groupId>com.ping.wu</groupId>
-            <artifactId>dubbo-server-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
     </dependencies>
     <distributionManagement>
         <repository>
