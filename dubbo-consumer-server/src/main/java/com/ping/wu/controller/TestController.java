@@ -22,6 +22,7 @@ public class TestController {
     }
 
     @GetMapping("/mock")
+    @ResponseBody
     public String testMock() {
         return demoService.testMock();
     }
