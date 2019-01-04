@@ -17,7 +17,7 @@
     <!-- 声明需要暴露的服务接口 -->
     <!--<dubbo:reference id="demoService" interface="com.ping.wu.api.test.DemoService" registry="zookeeper" timeout="10000"/>-->
     <dubbo:reference id="demoService" interface="com.ping.wu.api.test.DemoService" registry="zookeeper" async="true"
-                     callbacks="1000" timeout="2000" version="1.0">
+                     callbacks="1000" timeout="1000" version="1.0">
     </dubbo:reference>
     <dubbo:provider server = "netty4" client = "netty4"/>
 </beans>

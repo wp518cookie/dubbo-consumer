@@ -21,6 +21,11 @@ public class TestController {
         this.demoService = demoService;
     }
 
+    @GetMapping("/mock")
+    public String testMock() {
+        return demoService.testMock();
+    }
+
     @GetMapping
     @ResponseBody
     public String testGet() {
@@ -28,4 +33,5 @@ public class TestController {
         demoService.saySomething();
         return "success";
     }
+
 }
