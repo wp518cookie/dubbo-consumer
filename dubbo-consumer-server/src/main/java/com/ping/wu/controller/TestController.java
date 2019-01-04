@@ -24,6 +24,7 @@ public class TestController {
     @GetMapping
     @ResponseBody
     public String testGet() {
+//        demoService.test("world");
         demoService.saySomething();
         return "success";
     }
