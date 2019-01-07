@@ -37,7 +37,7 @@
     <dependencies>
         <dependency>
             <groupId>com.ping.wu</groupId>
-            <artifactId>dubbo-server-api</artifactId>
+            <artifactId>dubbo-provider-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
