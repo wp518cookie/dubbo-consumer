@@ -1,4 +1,4 @@
-package com.ping.wu.api.test;
+package com.ping.wu.api;
 
 /**
  * @author wuping

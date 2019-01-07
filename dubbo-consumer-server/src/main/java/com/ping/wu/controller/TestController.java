@@ -1,6 +1,6 @@
 package com.ping.wu.controller;
 
-import com.ping.wu.api.test.DemoService;
+import com.ping.wu.api.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
