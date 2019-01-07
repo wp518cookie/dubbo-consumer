@@ -10,7 +10,6 @@
 
     <description>Spring公共配置</description>
     <import resource="spring-dubbo.xml"/>
-    <context:property-placeholder location="classpath:application.properties"/>
     <!--开启注解 -->
     <context:annotation-config/>
 
